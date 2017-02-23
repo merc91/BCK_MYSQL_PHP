@@ -31,7 +31,7 @@ $parametri_ncftpput = "-DD";                                  //INSERIRE PARAMET
 $nullFTP = "1>/dev/null 2>/dev/null";
 
 $emailFROM = "bckmysql@domain.com";                           //INSERIRE FROM MAIL
-$emailFROM_SENDMAIL = "FROM: bckmysql@domain.com";                           //INSERIRE FROM MAIL
+$emailFROM_SENDMAIL = "FROM: bckmysql@domain.com";            //INSERIRE FROM MAIL PER SENDMAIL
 $emailTO = "send@domain.com,send_2@domain.com";               //INSERIRE DESTINATARIO MAIL A
 
 $home_mysqldump = "/usr/bin/mysqldump";
