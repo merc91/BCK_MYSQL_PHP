@@ -31,6 +31,7 @@ $parametri_ncftpput = "-DD";                                  //INSERIRE PARAMET
 $nullFTP = "1>/dev/null 2>/dev/null";
 
 $emailFROM = "bckmysql@domain.com";                           //INSERIRE FROM MAIL
+$emailFROM_SENDMAIL = "FROM: bckmysql@domain.com";                           //INSERIRE FROM MAIL
 $emailTO = "send@domain.com,send_2@domain.com";               //INSERIRE DESTINATARIO MAIL A
 
 $home_mysqldump = "/usr/bin/mysqldump";
@@ -171,7 +172,7 @@ function send_mail($emailScript){
     $corpo_email .= "\r\nFILE esportati su ".$hostFTP." -> ".$home_bck_remote_assoluto."".$home_bck_remote."\r\n";
     $corpo_email .= "\r\nEsecuzione script terminata\r\n";
 
-    mail($emailTO,$emailSubject,$corpo_email,"From: bckmysql@domain.com");
+    mail($emailTO,$emailSubject,$corpo_email,$emailFROM_SENDMAIL);
 
 }
 ?>
