@@ -15,8 +15,8 @@
 $host = "host.domain.com";                                    //INSERIRE NOME SERVER
 
 $hostDB = "localhost";                                        //INSERIRE HOST DATABASE
-$userDB = "root";                                             //INSERIRE USER DB
-$passDB = "r00tdb0";                                          //INSERIRE PASS DB
+$userDB = "";                                             //INSERIRE USER DB
+$passDB = "";                                          //INSERIRE PASS DB
 
 $home_bck_loc = "/home/mysqlbackup/";                         //INSERIRE IL PERCORSO DELLA CARTELLA LOCALE
 $home_bck_remote_assoluto="/home/mysqlbackup/";               //INSERIRE IL PERCORSO DELLA CARTELLA REMOTA
